@@ -1,0 +1,50 @@
+{
+  "BossDisplayList": [
+    "SaberBoss", "QinShiBoss", "IchigoBoss", "GilgameshBoss",
+    "BlessedMaidenBoss", "SaberAlterBoss", "MoonSlayerBoss", "IcequeenBoss",
+    "StrongestHistory", "StrongestToday",
+    "RimuruBoss", "AnosBoss", "TrueAizenBoss", "AtomicBoss"
+  ],
+  "BossPortalMap": {
+    "SaberBoss":         "Boss",
+    "QinShiBoss":        "Boss",
+    "IchigoBoss":        "Boss",
+    "GilgameshBoss":     "Boss",
+    "BlessedMaidenBoss": "Boss",
+    "SaberAlterBoss":    "Boss",
+    "MoonSlayerBoss":    "Boss",
+    "IcequeenBoss":      "Boss",
+    "StrongestHistory":  "Shinjuku",
+    "StrongestToday":    "Shinjuku",
+    "RimuruBoss":        "Slime",
+    "TrueAizenBoss":     "SoulDominion",
+    "AnosBoss":          "Academy",
+    "AtomicBoss":        "Lawless"
+  },
+  "BossSpecial": {
+    "StrongestHistory": { "Remote": "RequestSpawnStrongestBoss", "Monster": "StrongestinHistoryBoss" },
+    "StrongestToday":   { "Remote": "RequestSpawnStrongestBoss", "Monster": "StrongestofTodayBoss" },
+    "RimuruBoss":       { "Remote": "RequestSpawnRimuru" },
+    "TrueAizenBoss":    { "Remote": "RequestSpawnTrueAizen" },
+    "AnosBoss":         { "Remote": "RequestSpawnAnosBoss" },
+    "AtomicBoss":       { "Remote": "RequestSpawnAtomic" }
+  },
+  "Portals": [
+    "Starter","Jungle","Desert","Snow","Sailor","Shibuya","Hollow",
+    "Boss","Dungeon","Shinjuku","Slime","Academy","Judgement",
+    "SoulDominion","Ninja","Lawless","Tower"
+  ],
+  "PortalMobMap": {
+    "Starter":   ["Thief", "ThiefBoss"],
+    "Jungle":    ["Monkey", "MonkeyBoss"],
+    "Desert":    ["Bandit", "BanditBoss"],
+    "Snow":      ["FrostRogue", "SnowBoss"],
+    "Shibuya":   ["Sorcerer"],
+    "Shinjuku":  ["StrongSorcerer", "Curse"],
+    "Slime":     ["Slime"],
+    "Academy":   ["AcademyTeacher"],
+    "Judgement": ["Swordsman"],
+    "Ninja":     ["Ninja"],
+    "Lawless":   ["ArenaFighter"]
+  }
+}
