@@ -1,7 +1,7 @@
 {
   "BossDisplayList": [
     "SaberBoss", "QinShiBoss", "IchigoBoss", "GilgameshBoss",
-    "BlessedMaidenBoss", "SaberAlterBoss", "MoonSlayerBoss", "IcequeenBoss",
+    "BlessedMaidenBoss", "SaberAlterBoss", "MoonSlayerBoss", "IceQueenBoss",
     "StrongestHistory", "StrongestToday",
     "RimuruBoss", "AnosBoss", "TrueAizenBoss", "AtomicBoss"
   ],
@@ -13,7 +13,7 @@
     "BlessedMaidenBoss": "Boss",
     "SaberAlterBoss":    "Boss",
     "MoonSlayerBoss":    "Boss",
-    "IcequeenBoss":      "Boss",
+    "IceQueenBoss":      "Boss",
     "StrongestHistory":  "Shinjuku",
     "StrongestToday":    "Shinjuku",
     "RimuruBoss":        "Slime",
